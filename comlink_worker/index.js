@@ -1,10 +1,8 @@
-import * as Comlink from 'comlink';
 
-export async function test() {
+export function test() {
     const worker = new Worker(new URL("./worker.js", import.meta.url), {type: "module"});
     worker.onerror = (err) => console.error(err);
+    worker.onmessage = (event) => console.log(event);
 
-    const wrappedWorker = Comlink.wrap(worker);
-
-    console.log("comlink: 1 + 1 =", await wrappedWorker.add(1, 1));
+    worker.postMessage("hello");
 }

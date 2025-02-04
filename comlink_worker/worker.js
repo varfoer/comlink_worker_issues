@@ -1,9 +1,5 @@
 import * as Comlink from 'comlink';
 
-const obj = {
-    add(x, y) {
-        return x + y;
-    }
+onmessage = (message) => {
+    console.log(message);
 }
-
-Comlink.expose(obj);
