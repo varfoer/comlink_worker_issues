@@ -1,0 +1,26 @@
+{
+  "name": "comlink_worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "files": [
+    "./dist"
+  ],
+  "browserslist": [
+    "last 10 chrome versions",
+    "not dead"
+  ],
+  "scripts": {
+    "build": "parcel build index.js",
+    "test": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "comlink": "^4.4.2"
+  }
+}
