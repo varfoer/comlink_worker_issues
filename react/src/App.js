@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { test as regular_test } from "regular_worker";
-import { test as comlink_test } from "comlink_worker";
+import { testWorkerWithImport, testWorkerWithoutImport, testWorkerWithLocalImport } from "worker_package";
 
 function App() {
   return (
@@ -13,8 +12,9 @@ function App() {
           Click and check console.
         </p>
         <button onClick={() => {
-            regular_test();
-            comlink_test();
+            testWorkerWithoutImport();
+            testWorkerWithLocalImport();
+            testWorkerWithImport();
         }}>
           TESTO
         </button>

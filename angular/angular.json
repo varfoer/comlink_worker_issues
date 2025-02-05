@@ -27,11 +27,7 @@
               },
               {
                 "glob": "**/*",
-                "input": "node_modules/regular_worker/dist"
-              },
-              {
-                "glob": "**/*",
-                "input": "node_modules/comlink_worker/dist"
+                "input": "node_modules/worker_package/dist"
               }
             ],
             "styles": [

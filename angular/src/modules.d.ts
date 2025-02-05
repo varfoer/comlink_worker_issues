@@ -1,2 +1,1 @@
-declare module "regular_worker";
-declare module "comlink_worker";
+declare module "worker_package";

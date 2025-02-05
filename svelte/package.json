@@ -12,8 +12,7 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
     "dependencies": {
-        "regular_worker": "file:../regular_worker/regular_worker-1.0.0.tgz",
-        "comlink_worker": "file:../comlink_worker/comlink_worker-1.0.0.tgz"
+        "worker_package": "file:../worker_package/worker_package-1.0.0.tgz"
     },
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^4.0.0",

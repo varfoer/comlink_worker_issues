@@ -10,8 +10,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "regular_worker": "file:../regular_worker/regular_worker-1.0.0.tgz",
-    "comlink_worker": "file:../comlink_worker/comlink_worker-1.0.0.tgz"
+    "worker_package": "file:../worker_package/worker_package-1.0.0.tgz"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
-import { test as regular_test } from "regular_worker";
-import { test as comlink_test } from "comlink_worker";
+import { testWorkerWithImport, testWorkerWithoutImport, testWorkerWithLocalImport } from "worker_package";
 
 onMounted(() => {
-    regular_test();
-    comlink_test();
+    testWorkerWithoutImport();
+    testWorkerWithLocalImport();
+    testWorkerWithImport();
 })
 
 defineProps<{

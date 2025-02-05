@@ -12,8 +12,7 @@
   },
   "dependencies": {
     "vue": "^3.5.13",
-    "regular_worker": "file:../regular_worker/regular_worker-1.0.0.tgz",
-    "comlink_worker": "file:../comlink_worker/comlink_worker-1.0.0.tgz"
+    "worker_package": "file:../worker_package/worker_package-1.0.0.tgz"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",

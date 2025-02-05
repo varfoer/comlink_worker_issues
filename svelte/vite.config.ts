@@ -5,8 +5,7 @@ export default defineConfig({
 	plugins: [sveltekit()],
     optimizeDeps: {
         exclude: [
-            "regular_worker",
-            "comlink_worker"
+            "worker_package"
         ]
     }
 });

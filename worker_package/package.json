@@ -1,5 +1,5 @@
 {
-  "name": "comlink_worker",
+  "name": "worker_package",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -12,8 +12,7 @@
     "not dead"
   ],
   "scripts": {
-    "build": "parcel build index.js",
-    "test": "parcel index.html"
+    "build": "parcel build index.js"
   },
   "author": "",
   "license": "ISC",

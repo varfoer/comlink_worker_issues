@@ -17,8 +17,7 @@ export default defineConfig({
   },
   optimizeDeps: {
     exclude: [
-        "regular_worker",
-        "comlink_worker"
+        "worker_package"
     ]
   }
 })
